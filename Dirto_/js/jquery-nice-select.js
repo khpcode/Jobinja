@@ -29,7 +29,7 @@
                     var $dropdown = $(this).next('.nice-select');
 
                     if ($dropdown.length) {
-                        $dropdown.remove();
+                        $dropdown.remove(); 
                         $select.css('display', '');
                     }
                 });
